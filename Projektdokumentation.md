@@ -18,12 +18,15 @@
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| Nr. | Verbindlichkeit | Typ        | Beschreibung |
+| --- | --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Muss            | Funktional | Als User möchte ich Dinge wie Jahresgewinn, ges. Reserven, Aktien-und Partizipationskapital usw. Eingeben können, um die Gewinnverteilung korrekt berechnen zu können.           |
+| 2   | Muss            | Funktional | Als User möchte ich, dass die Applikation den Beitrag zur ges. Reserve, den Betrag der Dividende und den Gewinn- oder Verlustvortrag für die nächste Rechnung berechnet, damit ich die richtigen Werte erhalte. |
+| 3   | Muss            | Qualität   | Als User möchte ich, dass die Applikation die Eingaben auf Plausibilität prüft, damit ich sicherstellen kann, dass alle Werte gültig sind und keine Berechnungsfehler aufgetreten sind. |
+| 4   | Muss            | Qualität   | Als User möchte ich hilfreiche Fehlermeldungen erhalten, wenn ich falsche oder invalide Werte eingebe, damit ich die Eingaben korrigieren kann.                                    |
+| 5   | Kann            | Funktional | Als User möchte ich, dass die Applikation die berechneten Ergebnisse erklärt, damit ich verstehe, wie man auf die Werte kommt.                                                    |
+| 6   | Muss            | Rand       | Als User möchte ich wissen, dass Agio, Tantiemen und Verfahren für eine Holding nicht berücksichtigt werden, damit ich die Berechnungen korrekt verstehen kann.                     |
+| 7   | Kann            | Rand       | Als User möchte ich, dass die Berechnungen der ges. Gewinnreserve und Dividende korrekt durchgeführt werden, ohne die Berücksichtigung von Dingen wie Agio und Tantiemen.         |
 
 ### 1.3 Testfälle
 

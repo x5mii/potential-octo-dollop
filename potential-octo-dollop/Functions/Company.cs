@@ -13,9 +13,13 @@ namespace potential_octo_dollop.Functions
         public double GeneralReserve { get; set; }
         public double AnnualProfit { get; set; }
 
-        public Company() 
+        public Company(double paidInCapital, double generalReserve, double annualProfit)
         {
-            
+            PaidInCapital = paidInCapital;
+            GeneralReserve = generalReserve;
+            AnnualProfit = annualProfit;
         }
+
+
     }
 }

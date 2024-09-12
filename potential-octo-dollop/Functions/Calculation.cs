@@ -26,6 +26,12 @@ namespace potential_octo_dollop.Functions
             }
             return 0;
         }
+        public double CalculateSecondDividend()
+        {
+            double secondDividend;
+
+            return 0;
+        }
 
         bool IsDividendPossible(double annualProfit, double paidInCapital)
         {

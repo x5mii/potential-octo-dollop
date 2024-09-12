@@ -7,19 +7,29 @@ using System.Threading.Tasks;
 
 namespace potential_octo_dollop.Functions
 {
-    class Company
+    public class Company
     {
+
         public double PaidInCapital { get; set; }
+        public double ParticipationCapital { get; set; }
         public double GeneralReserve { get; set; }
+        public double ProfitPresentation { get; set; }
+        public double DesiredDividend { get; set; }
         public double AnnualProfit { get; set; }
 
-        public Company(double paidInCapital, double generalReserve, double annualProfit)
+        public Company(double paidInCapital, 
+            double generalReserve,
+            double profitPresentation,
+            double desiredDividend,
+            double annualProfit,
+            double participationCapital)
         {
             PaidInCapital = paidInCapital;
             GeneralReserve = generalReserve;
+            ProfitPresentation = profitPresentation;
+            DesiredDividend = desiredDividend;
             AnnualProfit = annualProfit;
+            ParticipationCapital = participationCapital;
         }
-
-
     }
 }

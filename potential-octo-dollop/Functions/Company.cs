@@ -9,13 +9,13 @@ namespace potential_octo_dollop.Functions
 {
     public class Company
     {
-
-        public double PaidInCapital { get; set; }
+        public double AnnualProfit { get; set; }
+        public double ShareCapital { get; set; }
         public double ParticipationCapital { get; set; }
         public double GeneralReserve { get; set; }
         public double ProfitPresentation { get; set; }
         public double DesiredDividend { get; set; }
-        public double AnnualProfit { get; set; }
+        
 
         public Company(double paidInCapital, 
             double generalReserve,
@@ -24,7 +24,7 @@ namespace potential_octo_dollop.Functions
             double annualProfit,
             double participationCapital)
         {
-            PaidInCapital = paidInCapital;
+            ShareCapital = paidInCapital;
             GeneralReserve = generalReserve;
             ProfitPresentation = profitPresentation;
             DesiredDividend = desiredDividend;

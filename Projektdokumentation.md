@@ -2,19 +2,23 @@
 
 ☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Potential-octo-dollop Samuel Lucena, Alberto Manser, Julius Burlet, Timo Goedertier
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 15.08.24| 0.0.1   | User-Stories und planen erstellt  |
+| 22.08.24| 0.0.2   | Entwicklungsumgebung aufgesetzt, User-Stories fertiggestellt und Testfälle erstellt|
+| 29.08.24| 0.0.3 | Grundfunktionalitäten der Berechnungen erstellt und GUI erstellt |
+| 5.09.24 | 0.1.0 | Fertigstellen GUI und BErechnungslogik, zusammenführen GUI und Logik |
+| 12.09.24| 1.0.0   | Erfolgreich getestet und Code von Bugs bereinigt|
+| 19.09.24| 1.0.0 | Präsentation erstellt |
+
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Unser Projekt ist ein Finanzrechner welcher die vom User getätigten Eingaben laut OR Art. 671 korrekt durchrechnet und die Auszuschüttende Dividende inklusive aller Abzüge ausgibt.
 
 ### 1.2 User Stories
 
@@ -44,7 +48,6 @@
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
@@ -61,13 +64,13 @@
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  | .10.2024| Entwicckler-Team|5 Tage               |4 Tage                   |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.

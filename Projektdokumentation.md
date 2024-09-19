@@ -31,6 +31,7 @@ Unser Projekt ist ein Finanzrechner welcher die vom User getätigten Eingaben la
 | 5   | Kann| Funktional | Als User möchte ich, dass die Applikation die berechneten Ergebnisse erklärt, damit ich verstehe, wie man auf die Werte kommt.|
 | 6   | Muss| Rand| Als User möchte ich wissen, dass Agio, Tantiemen und Verfahren für eine Holding nicht berücksichtigt werden, damit ich die Berechnungen korrekt verstehen kann.|
 | 7   | Kann| Rand| Als User möchte ich, dass die Berechnungen der ges. Gewinnreserve und Dividende korrekt durchgeführt werden, ohne die Berücksichtigung von Dingen wie Agio und Tantiemen.|
+| 8 | Muss | Funktional | Als User möchte ich ein GUI in dem ich die Eingaben für das Berechnen tätigen kann. |
 
 ### 1.3 Testfälle
 
@@ -53,13 +54,12 @@ Unser Projekt ist ein Finanzrechner welcher die vom User getätigten Eingaben la
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 15.10.2024  | Entwickler-Team   | Als User möchte ich Dinge wie Jahresgewinn, ges. Reserven, Aktien-und Partizipationskapital usw. eingeben können, um die Gewinnverteilung korrekt berechnen zu können. | 5 Tage|
-| 1.B  | 20.10.2024  | Entwickler-Team   | Als User möchte ich, dass die Applikation den Beitrag zur ges. Reserve, den Betrag der Dividende und den Gewinn- oder Verlustvortrag für die nächste Rechnung berechnet, damit ich die richtigen Werte erhalte. | 7 Tage|
-| 1.C  | 25.10.2024  | QA-Team| Als User möchte ich, dass die Applikation die Eingaben auf Plausibilität prüft, damit ich sicherstellen kann, dass alle Werte gültig sind und keine Berechnungsfehler aufgetreten sind. | 3 Tage|
-| 1.D  | 28.10.2024  | QA-Team| Als User möchte ich hilfreiche Fehlermeldungen erhalten, wenn ich falsche oder invalide Werte eingebe, damit ich die Eingaben korrigieren kann. | 3 Tage|
-| 1.E  | 01.11.2024  | Entwickler-Team   | Als User möchte ich, dass die Applikation die berechneten Ergebnisse erklärt, damit ich verstehe, wie man auf die Werte kommt. | 4 Tage|
-| 1.F  | 05.11.2024  | Entwickler-Team   | Als User möchte ich wissen, dass Agio, Tantiemen und Verfahren für eine Holding nicht berücksichtigt werden, damit ich die Berechnungen korrekt verstehen kann. | 2 Tage|
-| 1.G  | 08.11.2024  | Entwickler-Team   | Als User möchte ich, dass die Berechnungen der ges. Gewinnreserve und Dividende korrekt durchgeführt werden, ohne die Berücksichtigung von Dingen wie Agio und Tantiemen. | 3 Tage|
+| 1.A  | 12.09.2024  | Entwickler-Team   | Als User möchte ich Dinge wie Jahresgewinn, ges. Reserven, Aktien-und Partizipationskapital usw. eingeben können, um die Gewinnverteilung korrekt berechnen können. | 2 Werktage|
+| 1.B  | 12.09.2024  | Entwickler-Team   | Als User möchte ich, dass die Applikation den Beitrag zur ges. Reserve, den Betrag der Dividende und den Gewinn- oder Verlustvortrag für die nächste Rechnung berechnet, damit ich die richtigen Werte erhalte. | 2 Werktage|
+| 3.A  | 12.09.2024  | QA-Team| Als User möchte ich, dass die Applikation die Eingaben auf Plausibilität prüft, damit ich sicherstellen kann, dass alle Werte gültig sind und keine Berechnungsfehler aufgetreten sind. | 1 Werktag|
+| 4.A  | 12.09.2024  | QA-Team| Als User möchte ich hilfreiche Fehlermeldungen erhalten, wenn ich falsche oder invalide Werte eingebe, damit ich die Eingaben korrigieren kann. | 1 Werktag|
+| 5.A  | 12.09.2024  | Entwickler-Team   | Als User möchte ich, dass die Applikation die berechneten Ergebnisse erklärt, damit ich verstehe, wie man auf die Werte kommt. | 1 Werktag|
+| 8.A  | 12.09.2024  | Entwickler-Team   | Als User möchte ich ein GUI in dem ich die Eingaben für das Berechnen tätigen kann. | 2 Werktage|
 
 
 ## 3 Entscheiden
@@ -70,10 +70,13 @@ Unser Projekt ist ein Finanzrechner welcher die vom User getätigten Eingaben la
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | .10.2024| Entwicckler-Team|5 Tage               |4 Tage                   |
-| ...  |       |           |               |                   |
+| 1.A  | 12.09.2024|  Entwickler-Team|2 Werktage               |2 Werktage                   |
+| 1.B  | 12.09.2024|  Entwickler-Team         | Werktage              | 1 Werktag                  |
+| 3.A  | 12.09.2024| QA-Team | 1 Werktag | 1 Werktag |
+| 4.A | 12.09.2024 | QA-Team | 1 Werktag | 1/2 Werktag |
+| 5.A | 12.09.2024 | Entwickler-Team | 1 Werktag | 1/2 Werktag |
+| 8.A | 12.09.2024 | Entwickler-Team | 2 Werktage | 1 1/2 Werktage |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 

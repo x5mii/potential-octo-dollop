@@ -1,7 +1,5 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
 Potential-octo-dollop Samuel Lucena, Alberto Manser, Julius Burlet, Timo Goedertier
 
 | Datum | Version | Zusammenfassung                                              |

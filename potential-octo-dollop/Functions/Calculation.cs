@@ -85,7 +85,7 @@ namespace potential_octo_dollop.Functions
             }
             else
             {
-                return availableProfit; // Return the maximum possible dividend
+                return availableProfit;
             }
         }
 

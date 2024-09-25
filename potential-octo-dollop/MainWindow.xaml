@@ -5,6 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:potential_octo_dollop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+        Title="Company Financial Calculator" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Annual Profit:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="AnnualProfitInput" Margin="5"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Share Capital:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="ShareCapitalInput" Margin="5"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Participation Capital:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="ParticipationCapitalInput" Margin="5"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="General Reserve:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="GeneralReserveInput" Margin="5"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Profit Presentation:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="ProfitPresentationInput" Margin="5"/>
+
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Desired Dividend:" VerticalAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="5" Grid.Column="1" Name="DesiredDividendInput" Margin="5"/>
+
+        <Button Grid.Row="6" Grid.Column="1" Name="CalculateButton" Content="Calculate" Click="CalculateButton_Click" Margin="5"/>
+
+        <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Vertical" Margin="10">
+            <TextBlock Text="Results:" FontWeight="Bold" Margin="5"/>
+            <TextBlock Name="LegalReserveResult" Text="Legal Reserve: " Margin="5"/>
+            <TextBlock Name="DividendResult" Text="Dividend Payout: " Margin="5"/>
+            <TextBlock Name="NewProfitPresentationResult" Text="New Profit Presentation: " Margin="5"/>
+        </StackPanel>
+    </Grid>
 </Window>

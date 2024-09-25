@@ -34,7 +34,7 @@ namespace potential_octo_dollop.Functions
         }
 
         // Validate all inputs
-        private bool IsInputValid(Company company)
+        public bool IsInputValid(Company company)
         {
             if (company.AnnualProfit < 0)
             {
@@ -58,26 +58,29 @@ namespace potential_octo_dollop.Functions
         }
 
         // Calculate the legal reserve
-        private double CalculateLegalReserve(Company company)
+        public double CalculateLegalReserve(Company company)
         {
-            double requiredReserve = company.ShareCapital * ReserveThreshold;
+            double reserveThreshold = company.ShareCapital * ReserveThreshold;
             double currentReserve = company.GeneralReserve;
+            double annualContribution = company.AnnualProfit * ReservePercentage;
 
-            if (currentReserve < requiredReserve)
+            if (currentReserve >= reserveThreshold)
             {
-                return Math.Min(company.AnnualProfit * ReservePercentage, requiredReserve - currentReserve);
+                return 0;
             }
-            return 0;
+
+            double remainingToThreshold = reserveThreshold - currentReserve;
+            return Math.Min(annualContribution, remainingToThreshold);
         }
 
         // Calculate the profit available for dividend payout
-        private double CalculateAvailableProfit(Company company, double legalReserve)
+        public double CalculateAvailableProfit(Company company, double legalReserve)
         {
             return company.AnnualProfit - legalReserve + company.ProfitPresentation;
         }
 
         // Calculate the actual dividend based on the available profit
-        private double CalculateDividend(Company company, double availableProfit)
+        public double CalculateDividend(Company company, double availableProfit)
         {
             if (availableProfit >= company.DesiredDividend)
             {
@@ -90,7 +93,7 @@ namespace potential_octo_dollop.Functions
         }
 
         // Calculate the new profit or loss carryforward
-        private double CalculateNewProfitPresentation(Company company, double availableProfit, double dividend)
+        public double CalculateNewProfitPresentation(Company company, double availableProfit, double dividend)
         {
             return availableProfit - dividend;
         }
